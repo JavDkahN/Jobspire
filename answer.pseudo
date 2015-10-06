@@ -1,1 +1,20 @@
 
+/* Region Random Number Class
+using System;
+
+public class RandomNumber
+{
+	public static void Main()
+	{
+		RandomNumber rn = new RandomNumber();
+		rn.randomNumber("Javed");
+	}
+	private void randomNumber(string _name)
+	{
+		Random rnd = new Random();
+		int num = rnd.Next(6,15);
+		Console.WriteLine(_name + + num);
+	}
+}
+End Region
+*/
